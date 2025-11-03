@@ -4,7 +4,7 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing import image
 import numpy as np
 from PIL import Image
-import opencv-python
+import cv2
 
 st.set_page_config(page_title="Driver Drowsiness Detector", layout="centered")
 st.title("🚗 Driver Drowsiness & Yawn Detection")
