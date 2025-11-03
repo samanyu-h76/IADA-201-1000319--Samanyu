@@ -5,3 +5,4 @@ pillow
 streamlit
 scikit-learn
 matplotlib
+cv2
