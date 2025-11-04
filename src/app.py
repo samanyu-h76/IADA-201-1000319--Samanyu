@@ -11,7 +11,7 @@ st.title("🚗 Driver Drowsiness & Yawn Detection")
 
 @st.cache_resource
 def load_drowsiness_model():
-    model = load_model("../models/drowsiness_model.h5")
+    model = load_model("models/drowsiness_model.h5")
     return model
 
 model = load_drowsiness_model()
